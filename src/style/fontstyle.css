@@ -9,7 +9,7 @@
 html, body {
     height: 100%;
     width: 100%;
-    font-family: Arial, sans-serif; /* Cambia a tu fuente deseada */
+    font-family: Gellix; /* Cambia a tu fuente deseada */
     background-color: #ffffff; /* Fondo blanco por defecto */
     color: #000000; /* Texto negro por defecto */
     overflow-x: hidden; /* Elimina scroll horizontal */
