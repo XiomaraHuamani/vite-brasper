@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 
 // Estilos con styled-components
@@ -88,22 +87,6 @@ const Terms = styled.div`
   }
 `;
 
-const SubmitButton = styled.button`
-  width: 100%;
-  padding: 15px;
-  background-color: #00d1ff;
-  border: none;
-  border-radius: 15px; /* Aumentado el border-radius del botón */
-  color: white;
-  font-size: 18px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background 0.3s;
-
-  &:hover {
-    background-color: #00a8cc;
-  }
-`;
 
 const FormCalculator = () => {
   return (
@@ -139,7 +122,12 @@ const FormCalculator = () => {
             <span>Términos y Condiciones</span>
           </label>
         </Terms>
-        <SubmitButton>Enviar Dinero</SubmitButton>
+        <div className='centrar'>
+          <button className='button-baground-blue mt-1'>
+            Enviar Dinero
+          </button>
+        </div>
+        
       </TermsWrapper>
     </FormContainer>
   );

@@ -1,4 +1,3 @@
-import React from 'react';
 import logoImage from '../../assets/logos/logo_blanco.png'; // Cambia la ruta a tu logo
 
 const Logo = () => {
@@ -7,7 +6,7 @@ const Logo = () => {
             <img 
                 src={logoImage} 
                 alt="BrasPer Transferencias" 
-                style={{ height: '45px' }} // Tamaño más grande
+                style={{ height: '45px' }}
             />
         </div>
     );

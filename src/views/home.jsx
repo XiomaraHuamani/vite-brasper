@@ -1,4 +1,3 @@
-import React from 'react';
 import HeaderHome from '../componentes/Header/headerHome';
 
 const Home = () => {
