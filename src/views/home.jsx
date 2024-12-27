@@ -1,13 +1,13 @@
-import HeaderHome from '../componentes/Header/headerHome';
+import Layout from "@/components/layout";
+import HeaderHome from "@/components/home/Header";
+import Bancos from "@/components/home/Bancos";
 
 const Home = () => {
   return (
-    <div>
-      <HeaderHome/>
-      <main>
-        {/* Aquí puedes agregar más contenido de la página principal */}
-      </main>
-    </div>
+    <Layout>
+      <HeaderHome />
+      <Bancos />
+    </Layout>
   );
 };
 

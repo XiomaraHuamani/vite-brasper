@@ -1,0 +1,27 @@
+{
+    "Inicio": "Home",
+    "Nosotros": "About Us",
+    "Reales": "Reals",
+    "Dólares": "Dollars",
+    "Blog": "Blog",
+    "header": {
+        "title": "Your transfer arrives in <strong>Minutes</strong> and directly to your <strong>Destination Account</strong>!",
+        "subtitle": "Trust, speed, and security in your transfers",
+        "button": "Invite here and earn your Brasper bonus ➔"
+    },
+    "aboutSection": {
+        "subTitle": "About the Company",
+        "title": "Connect Your World, Maximize Your Value",
+        "description": "In a globalized and increasingly connected world, making international transfers and currency exchanges efficiently, safely, and with competitive rates is essential for both individuals and businesses. At Braper Transfers, we specialize in offering a currency exchange and international transfer service that stands out for its transparency, reliability, and personalized attention. Our mission is to make every transaction simple and worry-free so that you can focus on what really matters.",
+        "viewMoreButton": "View More",
+        "contactUs": "Contact Us",
+        "bestChoice": {
+            "title": "Your Best Choice for Currency Exchange",
+            "description": "Sit amet consectetur adiisc elit sed eiusmod temp diunts ut labore et dolore magna."
+        },
+        "smartInvestments": {
+            "title": "Smart Investments, Guaranteed Results",
+            "description": "Maximize your earnings by choosing a reliable exchange house."
+        }
+    }
+}

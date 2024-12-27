@@ -1,0 +1,27 @@
+{
+    "Inicio": "Início",
+    "Nosotros": "Sobre Nós",
+    "Reales": "Reais",
+    "Dólares": "Dólares",
+    "Blog": "Blog",
+    "header": {
+        "title": "Sua transferência chega em <strong>Minutos</strong> e diretamente na sua <strong>Conta de Destino</strong>!",
+        "subtitle": "Confiança, rapidez e segurança nas suas transferências",
+        "button": "Convide aqui e ganhe seu bônus Brasper ➔"
+    },
+    "aboutSection": {
+        "subTitle": "Sobre a Empresa",
+        "title": "Conecte Seu Mundo, Maximize Seu Valor",
+        "description": "Em um mundo globalizado e cada vez mais conectado, realizar transferências internacionais e trocas de moedas de maneira eficiente, segura e com taxas competitivas é essencial para indivíduos e empresas. Na Braper Transferências, nos especializamos em oferecer um serviço de câmbio de moedas e transferências internacionais que se destaca pela transparência, confiabilidade e atendimento personalizado. Nossa missão é tornar cada transação simples e sem preocupações, para que você possa se concentrar no que realmente importa.",
+        "viewMoreButton": "Ver Mais",
+        "contactUs": "Entre em Contato Conosco",
+        "bestChoice": {
+            "title": "Sua Melhor Escolha para Troca de Moeda",
+            "description": "Sit amet consectetur adiisc elit sed eiusmod temp diunts ut labore et dolore magna."
+        },
+        "smartInvestments": {
+            "title": "Investimentos Inteligentes, Resultados Garantidos",
+            "description": "Maximize seus ganhos escolhendo uma casa de câmbio confiável."
+        }
+    }
+}
