@@ -23,5 +23,31 @@
             "title": "Investimentos Inteligentes, Resultados Garantidos",
             "description": "Maximize seus ganhos escolhendo uma casa de câmbio confiável."
         }
+    },
+    "servicesSection": {
+        "title": "Últimos serviços",
+        "subtitle": "Fornecemos as melhores cotações para transferências",
+        "service1Title": "Transferências",
+        "service1Description": "Uma transferência bancária é um processo pelo qual o dinheiro é transferido de uma conta bancária para outra.",
+        "service2Title": "Cotações",
+        "service2Description": "No contexto de uma casa de câmbio ou de uma entidade que trabalha com câmbio de moeda, uma cotação se refere ao valor ou taxa pela qual uma moeda pode ser trocada por outra em um determinado momento.",
+        "service3Title": "Envios",
+        "service3Description": "Envios rápidos e seguros com as transferências da Brasper.",
+        "service4Title": "Serviços",
+        "service4Description": "Os serviços que prestamos não são apenas transferências seguras, mas também oferecemos consultoria e insights financeiros.",
+        "service5Title": "Melhoria de Despesas",
+        "service5Description": "Com a gente, você terá confiança em melhorar suas transferências e nós oferecemos um desconto em sua primeira transferência conosco."
+    },
+    "workProcessSection": {
+        "title": "Nosso guia simples",
+        "subtitle": "Compre ou venda seus Reais, Soles ou Dólares em 4 etapas simples",
+        "step1Title": "Obter Cotação",
+        "step1Description": "Obtenha uma cotação e insira o valor que deseja trocar.",
+        "step2Title": "Cadastre-se",
+        "step2Description": "Cadastre-se e faça a transferência para a conta da BrasPer Transferencias e nos envie o comprovante da operação.",
+        "step3Title": "Receba sua transferência",
+        "step3Description": "Receba sua troca. Depositaremos o dinheiro na conta registrada.",
+        "step4Title": "Recomende",
+        "step4Description": "Se você ficou satisfeito com nosso serviço, recomende-nos a mais pessoas."
     }
 }

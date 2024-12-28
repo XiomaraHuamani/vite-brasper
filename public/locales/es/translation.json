@@ -23,5 +23,31 @@
             "title": "Inversiones Inteligentes, Resultados Garantizados",
             "description": "Maximiza tus ganancias eligiendo la casa de cambio confiable."
         }
+    },
+    "servicesSection": {
+        "title": "Últimos serviços",
+        "subtitle": "Fornecemos as melhores cotações para transferências",
+        "service1Title": "Transferências",
+        "service1Description": "Uma transferência bancária é um processo pelo qual o dinheiro é transferido de uma conta bancária para outra.",
+        "service2Title": "Cotações",
+        "service2Description": "No contexto de uma casa de câmbio ou de uma entidade que trabalha com câmbio de moeda, uma cotação se refere ao valor ou taxa pela qual uma moeda pode ser trocada por outra em um determinado momento.",
+        "service3Title": "Envios",
+        "service3Description": "Envios rápidos e seguros com as transferências da Brasper.",
+        "service4Title": "Serviços",
+        "service4Description": "Os serviços que prestamos não são apenas transferências seguras, mas também oferecemos consultoria e insights financeiros.",
+        "service5Title": "Melhoria de Despesas",
+        "service5Description": "Com a gente, você terá confiança em melhorar suas transferências e nós oferecemos um desconto em sua primeira transferência conosco."
+    },
+    "workProcessSection": {
+        "title": "Nuestra pequeña guía",
+        "subtitle": "Compra o vende tus Reales, soles o dólares en 4 simples pasos",
+        "step1Title": "Cotiza",
+        "step1Description": "Cotiza e ingresa el monto que deseas cambiar.",
+        "step2Title": "Regístrate",
+        "step2Description": "Regístrate y realiza la transferencia a la cuenta de BrasPer Transferencias y envíanos la constancia de la operación.",
+        "step3Title": "Recibe tu transferencia",
+        "step3Description": "Recibe tu cambio. Te abonaremos el dinero a la cuenta registrada.",
+        "step4Title": "Recomienda",
+        "step4Description": "Si quedaste satisfecho con nuestro servicio recomiéndanos con más personas."
     }
 }
