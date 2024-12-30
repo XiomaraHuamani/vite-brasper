@@ -1,11 +1,15 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-
+import useIntersectionObserver from "@/hooks/useIntersectionObserver";
 const WorkProcess = () => {
   const { t } = useTranslation();
 
+  const elementsRef = useIntersectionObserver();
   return (
-    <section className="work-process">
+    <section
+      className="work-process fade-in"
+      ref={(el) => elementsRef.current.push(el)}
+    >
       <div className="work-process__header">
         <span className="work-process__subtitle">
           {t("workProcessSection.subtitle")}
@@ -13,7 +17,10 @@ const WorkProcess = () => {
         <h2 className="work-process__title">{t("workProcessSection.title")}</h2>
       </div>
       <div className="work-process__line">
-        <img src="/assets/images/WorkProcess/work-process-line.png" alt="line" />
+        <img
+          src="/assets/images/WorkProcess/work-process-line.png"
+          alt="line"
+        />
       </div>
       <div className="work-process__container">
         <div className="work-process__row">
