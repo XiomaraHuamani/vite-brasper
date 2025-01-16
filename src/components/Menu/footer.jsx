@@ -1,4 +1,3 @@
-// Footer.jsx
 import React from "react";
 
 const Footer = () => {
@@ -7,7 +6,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-logo-section">
           <img
-            src="https://via.placeholder.com/150"
+            src="/assets/images/logos/logo_blanco.png"
             alt="Brasper Transferencias"
             className="footer-logo"
           />
@@ -33,15 +32,14 @@ const Footer = () => {
               <li>Fidelización</li>
             </ul>
           </div>
-          <div>
-            <h3>¿Quiénes somos?</h3>
-            <ul>
-              <li>Misión</li>
-              <li>Visión</li>
-            </ul>
-          </div>
         </div>
-
+        <div className="footer-links-section">
+          <h3>¿Quiénes somos?</h3>
+          <ul>
+            <li>Misión</li>
+            <li>Visión</li>
+          </ul>
+        </div>
         <div className="footer-contact-section">
           <h3>Contáctanos</h3>
           <p>Puedes escribirnos al siguiente correo, te ayudaremos con gusto</p>
@@ -58,7 +56,7 @@ const Footer = () => {
                 <i className="fab fa-tiktok"></i>
               </a>
               <a href="#">
-                <i className="fab fa-instagram"></i>
+                <i className="fab fa-instagram" />
               </a>
               <a href="#">
                 <i className="fab fa-linkedin-in"></i>
@@ -67,7 +65,7 @@ const Footer = () => {
                 <i className="fab fa-youtube"></i>
               </a>
               <a href="#">
-                <i className="fab fa-twitter"></i>
+                <i className="fab fa-facebook-f" />
               </a>
             </div>
           </div>
@@ -76,7 +74,7 @@ const Footer = () => {
       <div className="footer-bottom">
         <p>© 2024 Brasper. Reservados todos los derechos.</p>
         <a href="#reclamaciones">📖 Libro de reclamaciones</a>
-      </div>
+      </div>{" "}
     </footer>
   );
 };

@@ -844,17 +844,23 @@ w-25 {
   color: #ffffff;
   padding: 40px 20px;
   font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer-content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1200px;
+  width: 100%;
+  text-align: left;
 }
 
 .footer-logo-section {
-  flex: 1 1 30%;
+  flex: 1 1 300px;
 }
 
 .footer-logo-section img {
@@ -880,9 +886,10 @@ w-25 {
 }
 
 .footer-links-section {
-  flex: 1 1 30%;
+  flex: 1 1 200px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  text-align: left;
 }
 
 .footer-links-section h3 {
@@ -902,7 +909,7 @@ w-25 {
 }
 
 .footer-contact-section {
-  flex: 1 1 30%;
+  flex: 1 1 300px;
 }
 
 .footer-contact-section h3 {
@@ -952,14 +959,35 @@ w-25 {
   font-size: 0.9rem;
   border-top: 1px solid #2a3344;
   padding-top: 10px;
+  width: 100%;
 }
 
-.footer-bottom a {
-  color: #00d4ff;
-  text-decoration: none;
-  margin-left: 10px;
+.hover-effect {
+  position: relative;
+  display: inline-block;
+  font-size: 0.9rem;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: color 0.3s ease; /* Transición suave para el cambio de color */
 }
 
-.footer-bottom a:hover {
-  text-decoration: underline;
+.hover-effect .icon {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto hover */
+.hover-effect:hover {
+  color: #00d4ff; /* Cambiar el color del texto al pasar el mouse */
+}
+
+.hover-effect:hover .icon {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-50%) translateX(5px); /* Animación de deslizamiento */
 }
